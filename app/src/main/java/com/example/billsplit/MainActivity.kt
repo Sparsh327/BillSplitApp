@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             BillSplitTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android phone",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
